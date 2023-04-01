@@ -3,7 +3,7 @@ JournalPage is a MERN-stack social media app project that allows users to post a
 
 ![IMAGE ALT TEXT](https://github.com/kannikakabilar/JournalPage-SocialMediaApp/blob/main/screenshots/Screen%20Shot%202023-03-31%20at%203.25.43%20PM.png)
 
-# How to run
+# How To Run
 - Make sure yarn and nodemon/node is installed
 - Open a terminal and navigate to where the project is cloned/downloaded
 ```md
@@ -27,7 +27,7 @@ JournalPage is a MERN-stack social media app project that allows users to post a
 ```
 Go to the browser to this url: http://localhost:3000, signup, login, and start creating posts.
 
-# Features and Concepts Learned
+# Features Implemented
 - ReactJS was used in the frontend to validate if user has entered correct information while logging in and signing up
 <p align="center">
   <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 7.16.28 PM.png" width="45%">
@@ -113,3 +113,12 @@ Go to the browser to this url: http://localhost:3000, signup, login, and start c
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="screenshots/Screen Shot 2023-04-01 at 4.51.57 PM.png" width="45%">
 </p>
+
+# Concepts Learned
+- Collections in MongoDB were created to store posts and users information
+- MongoDB was connected to backend through ExpressJS
+- Frontend connects to backend via fetch statements
+- Backend handles GET, POST, and PUT requests and sends the response back to the frontend to be displayed on the webpages
+- Each request is handled by a corresponding query made to MongoDB where the collections are stored
+- Frontend is designed using ReactJS that handles user events and how information gets displayed and collected form users
+- Passwords from users are collected, encrypted, and stored in documents of Users collection using bcryptjs
