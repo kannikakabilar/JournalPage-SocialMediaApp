@@ -142,5 +142,6 @@ Go to the browser to this url: http://localhost:3000, signup, login, and start c
 │   │   │   ├── UserContext.js (contains logged in user info)
 │   │   │   ├── Post.js (contains how each post will be displayed in the feed page)
 │   │   │   ├── index.js (contains some core content)
+│   │   │   ├── . . . (and some other files)
 ________________
 ```
