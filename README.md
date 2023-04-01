@@ -69,9 +69,37 @@ Go to the browser to this url: http://localhost:3000, signup, login, and start c
   <img alt="Dark" src="screenshots/Screen Shot 2023-03-31 at 7.43.57 PM.png" width="45%">
 </p>
 
-- Users can view profiles of other users and their posts but they can only edit their own profile
+- Users can view profiles of other users and their posts but they can only edit their own profile and their own posts.
 <p align="center">
   <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 7.53.07 PM.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="screenshots/Screen Shot 2023-03-31 at 7.53.28 PM.png" width="45%">
 </p>
+<p align="center">
+  <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 7.57.46 PM.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="screenshots/Screen Shot 2023-03-31 at 7.50.36 PM.png" width="45%">
+</p>
+
+- When users make updates to their own profile, they would be guided with form validation to ensure correct information about the user is stored
+<p align="center">
+  <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 7.53.53 PM.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="screenshots/Screen Shot 2023-03-31 at 7.55.24 PM.png" width="45%">
+</p>
+
+- Updated user profiles will also be updated in the User collection in MongoDB
+<p align="center">
+  <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 7.57.25 PM.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="screenshots/Screen Shot 2023-03-31 at 7.57.33 PM.png" width="45%">
+</p>
+
+- The Feed page contains posts of all users posted from most recently to older posts
+<p align="center">
+  <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 8.04.14 PM.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="screenshots/Screen Shot 2023-03-31 at 7.58.38 PM.png" width="45%">
+</p>
+
+- Users can search for posts in the search bar by post titles or by usernames
