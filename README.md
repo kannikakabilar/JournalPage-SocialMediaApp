@@ -122,3 +122,25 @@ Go to the browser to this url: http://localhost:3000, signup, login, and start c
 - Each request is handled by a corresponding query made to MongoDB where the collections are stored
 - Frontend is designed using ReactJS that handles user events and how information gets displayed and collected form users
 - Passwords from users are collected, encrypted, and stored in documents of Users collection using bcryptjs
+
+# File Structure
+```
+.
+├── JournalPage-SocialMediaApp/
+│   ├── README.MD
+│   ├── package.json
+│   ├── yarn.lock
+│   └── api/
+│   │   ├── index.js (backend server file that handles GET, POST, and PUT requests)
+│   │   └── models/ (contains Users & Posts schema files describing how each document of a collection will be stored in MongoDB)
+│   └── client/
+│   │   ├── public/ (contains index.html and favicon.ico)
+│   │   └── src/
+│   │   │   ├── pages/ (contains files that will be rendered when each page is displayed)
+│   │   │   ├── App.js & App.css (contains routing info to direct each page)
+│   │   │   ├── Layout.js (contains where header and page content will be displayed)
+│   │   │   ├── UserContext.js (contains logged in user info)
+│   │   │   ├── Post.js (contains how each post will be displayed in the feed page)
+│   │   │   ├── index.js (contains some core content)
+________________
+```
