@@ -103,3 +103,13 @@ Go to the browser to this url: http://localhost:3000, signup, login, and start c
 </p>
 
 - Users can search for posts in the search bar by post titles or by usernames
+<p align="center">
+  <img alt="Light" src="screenshots/Screen Shot 2023-04-01 at 4.50.38 PM.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="screenshots/Screen Shot 2023-04-01 at 4.51.32 PM.png" width="45%">
+</p>
+<p align="center">
+  <img alt="Light" src="screenshots/Screen Shot 2023-04-01 at 4.51.42 PM.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="screenshots/Screen Shot 2023-04-01 at 4.51.57 PM.png" width="45%">
+</p>
