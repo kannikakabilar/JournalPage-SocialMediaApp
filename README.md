@@ -27,7 +27,7 @@ JournalPage is a MERN-stack social media app project that allows users to post a
 ```
 Go to the browser to this url: http://localhost:3000, signup, login, and start creating posts.
 
-# Features Implemented
+# Features Implemented 
 - ReactJS was used in the frontend to validate if user has entered correct information while logging in and signing up
 <p align="center">
   <img alt="Light" src="screenshots/Screen Shot 2023-03-31 at 7.16.28 PM.png" width="45%">
