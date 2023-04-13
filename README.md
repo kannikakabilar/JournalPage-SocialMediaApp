@@ -116,6 +116,7 @@ Go to the browser to this url: http://localhost:3000, signup, login, and start c
 
 # Concepts Learned
 - Collections in MongoDB were created to store posts and users information
+- jwt (JSON Web Tokens) were used check if a user is logged in and which user is logged in
 - MongoDB was connected to backend through ExpressJS
 - Frontend connects to backend via fetch statements
 - Backend handles GET, POST, and PUT requests and sends the response back to the frontend to be displayed on the webpages
